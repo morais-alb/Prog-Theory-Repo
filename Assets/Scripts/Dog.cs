@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dog : Animal
+public class Dog : Animal // Inheritance
 {
     private Rigidbody dogRb;
     private const float jumpForce = 5;
@@ -16,11 +16,11 @@ public class Dog : Animal
     // Update is called once per frame
     void Update()
     {
-        Walk();
+        Walk(); // Abstraction
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Jump(dogRb, jumpForce);
+            Jump(dogRb, jumpForce); // Abstraction
         }
     }
 }

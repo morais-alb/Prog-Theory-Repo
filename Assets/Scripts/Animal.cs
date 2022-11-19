@@ -23,12 +23,12 @@ public class Animal : MonoBehaviour
         }
     }
 
-    protected void Walk()
+    protected void Walk() // Abstraction
     {
         transform.Translate(Vector3.forward * Time.deltaTime);
     }
 
-    protected virtual void Jump(Rigidbody animalRb, float jumpForce)
+    protected virtual void Jump(Rigidbody animalRb, float jumpForce) // Abstraction // Polymorphism
     {
         animalRb.AddForce(Vector2.up * jumpForce, ForceMode.Impulse);
     }

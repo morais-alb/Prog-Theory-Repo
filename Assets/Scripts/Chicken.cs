@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Chicken : Animal
+public class Chicken : Animal // Inheritance
 {
     private Rigidbody chickenRb;
     private const float jumpForce = 2;
@@ -16,7 +16,7 @@ public class Chicken : Animal
     // Update is called once per frame
     void Update()
     {
-        Walk();
+        Walk(); // Abstraction
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -24,7 +24,7 @@ public class Chicken : Animal
         }
     }
 
-    protected override void Jump(Rigidbody animalRb, float jumpForce)
+    protected override void Jump(Rigidbody animalRb, float jumpForce) // Abstraction // Polymorphism
     {
         base.Jump(animalRb, jumpForce);
         transform.Rotate(Vector3.up * 90);
