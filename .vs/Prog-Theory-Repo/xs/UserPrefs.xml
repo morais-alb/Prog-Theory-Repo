@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{BC36F07B-0BC1-91F2-39A7-44C344AAFF36}|">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0193c712-76d0-4f8c-8d17-d35bc735c131" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Animal.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MenuUIHandler.cs" Line="22" Column="33" />
+      <File FileName="Assets/Scripts/Chicken.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Animal.cs" Line="20" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
