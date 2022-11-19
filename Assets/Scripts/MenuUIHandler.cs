@@ -12,7 +12,7 @@ public class MenuUIHandler : MonoBehaviour
     private string m_NameInput;
     public string nameInput
     {
-        get { return m_NameInput; }
+        get { return m_NameInput; } // Encapsulation
         set
         {
             if (value.Length > 8)
@@ -25,18 +25,6 @@ public class MenuUIHandler : MonoBehaviour
                 nameCorrect = true;
             }
         }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void StartButtonPressed()
